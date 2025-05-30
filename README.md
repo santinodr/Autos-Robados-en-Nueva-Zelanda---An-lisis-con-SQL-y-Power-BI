@@ -15,8 +15,10 @@ El análisis se basa en tres tablas principales:
 - Visualizaciones en Power BI
 ✔ Mapa de robos por región. ✔ Distribución de autos robados por color. ✔ Comparativa de lujo vs. estándar. ✔ Tabla de marcas más robadas. ✔ Slicer para filtrar fechas. ✔ Q&A para preguntas dinámicas.
 
+![DASHBOARD](https://github.com/user-attachments/assets/fad80e91-5adb-4149-82eb-e25934391a3c)
+
 - Hallazgos Clave
 ✔ Más autos estándar robados → Posible dificultad para robar autos de lujo. ✔ Mayor incidencia en modelos antiguos y autos blancos. ✔ Lunes, el día con más robos → Patrón de inicio de semana.
 
-- Cómo Ejecutar el Proyecto
+- Cómo Ejecutar el Proyecto 
 1️⃣ Descargar los datos desde Maven Analytics. 2️⃣ Cargar las tablas en MySQL para estructurar la base de datos. 3️⃣ Conectar MySQL con Power BI utilizando el conector oficial. 4️⃣ Crear las visualizaciones con mapas, gráficos y slicers.
