@@ -1,8 +1,10 @@
 # Autos-Robados-en-Nueva-Zelanda_Analisis-con-SQL-Power-BI
 
 Análisis de Robos de Vehículos en Nueva Zelanda
+
 📌 Introducción
-Este proyecto analiza la incidencia de robos de vehículos en Nueva Zelanda, enfocándose en cantidad total de robos, marcas y modelos afectados, influencia del color y patrones temporales. Se usó SQL para extraer datos y Power BI para visualizar tendencias clave.
+Este proyecto analiza la incidencia de robos de vehículos en Nueva Zelanda, enfocándose en cantidad total de robos, marcas y modelos afectados, 
+influencia del color y patrones temporales. Se usó SQL para extraer datos y Power BI para visualizar tendencias clave.
 
 Estructura de la Base de Datos
 El análisis se basa en tres tablas principales:
