@@ -1,27 +1,38 @@
-# Autos-Robados-en-Nueva-Zelanda_Analisis-con-SQL-Power-BI
+Vehicle Theft Analysis in New Zealand
+📌 Introduction
 
-Análisis de Robos de Vehículos en Nueva Zelanda
+This project analyzes the incidence of vehicle thefts in New Zealand, focusing on the total number of thefts, most affected makes and models, influence of vehicle color, and temporal patterns. SQL was used to extract the data and Power BI was used to visualize key trends.
 
-📌 Introducción
+Database Structure
+The analysis is based on three main tables:
 
-Este proyecto analiza la incidencia de robos de vehículos en Nueva Zelanda, enfocándose en cantidad total de robos, marcas y modelos afectados, 
-influencia del color y patrones temporales. Se usó SQL para extraer datos y Power BI para visualizar tendencias clave.
+1️⃣ stolen_vehicles → Records stolen vehicles (vehicle_id)
+2️⃣ location → Contains the region where the theft occurred
+3️⃣ make_details → Stores information about the make and model (make_id)
 
-Estructura de la Base de Datos
-El análisis se basa en tres tablas principales:
+🔍 Analysis Questions
+✔ Does the frequency of theft vary by region? → Identify the areas with the highest number of incidents
+✔ What day of the week sees the most thefts? → Detect temporal patterns
 
-1️⃣ stolen_vehicles → Registra autos robados (vehicle_id). 2️⃣ location → Contiene la region donde ocurrió el robo. 3️⃣ make_details → Almacena información del fabricante y modelo (make_id).
-
-- Preguntas de Análisis
-✔ ¿La frecuencia de robos varía según la región? → Identificar zonas con más incidentes. ✔ ¿Qué día de la semana se roban más vehículos? → Detectar patrones temporales.
-
-- Visualizaciones en Power BI
-✔ Mapa de robos por región. ✔ Distribución de autos robados por color. ✔ Comparativa de lujo vs. estándar. ✔ Tabla de marcas más robadas. ✔ Slicer para filtrar fechas. ✔ Q&A para preguntas dinámicas.
+📊 Visualizations in Power BI
+✔ Theft map by region
+✔ Distribution of stolen cars by color
+✔ Comparison between luxury and standard vehicles
+✔ Table of most stolen brands
+✔ Date slicer to filter periods
+✔ Q&A panel for dynamic questions
 
 ![DASHBOARD](https://github.com/user-attachments/assets/fad80e91-5adb-4149-82eb-e25934391a3c)
 
-- Hallazgos Clave
-✔ Más autos estándar robados → Posible dificultad para robar autos de lujo. ✔ Mayor incidencia en modelos antiguos y autos blancos. ✔ Lunes, el día con más robos → Patrón de inicio de semana.
+💡 Key Findings
+✔ More standard cars were stolen → Possibly harder to steal luxury vehicles
+✔ Older models and white-colored cars were most targeted
+✔ Mondays had the highest theft rate → Beginning-of-week pattern
 
-- Cómo Ejecutar el Proyecto 
-1️⃣ Descargar los datos desde Maven Analytics. 2️⃣ Cargar las tablas en MySQL para estructurar la base de datos. 3️⃣ Conectar MySQL con Power BI utilizando el conector oficial. 4️⃣ Crear las visualizaciones con mapas, gráficos y slicers.
+🛠 How to Run This Project
+1️⃣ Download the dataset from Maven Analytics
+2️⃣ Load the tables into MySQL to structure the database
+3️⃣ Connect MySQL to Power BI using the official connector
+4️⃣ Build the visualizations with maps, charts, and slicers
+
+
