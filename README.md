@@ -24,7 +24,7 @@ The analysis is based on three main tables:
 ✔ Date slicer to filter periods
 ✔ Q&A panel for dynamic questions
 
-![DASHBOARD](https://github.com/user-attachments/assets/fad80e91-5adb-4149-82eb-e25934391a3c)
+![image](https://github.com/user-attachments/assets/47996c57-ed92-4ecc-895c-291c3355d8c1)
 
 💡 Key Findings
 ✔ More standard cars were stolen → Possibly harder to steal luxury vehicles
