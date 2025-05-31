@@ -1,7 +1,9 @@
-Vehicle Theft Analysis in New Zealand
+
 📌 Introduction
 
-This project analyzes the incidence of vehicle thefts in New Zealand, focusing on the total number of thefts, most affected makes and models, influence of vehicle color, and temporal patterns. SQL was used to extract the data and Power BI was used to visualize key trends.
+This project analyzes the incidence of vehicle thefts in New Zealand, focusing on the total number of thefts,
+most affected makes and models,influence of vehicle color, and temporal patterns.
+SQL was used to extract the data and Power BI was used to visualize key trends.
 
 Database Structure
 The analysis is based on three main tables:
